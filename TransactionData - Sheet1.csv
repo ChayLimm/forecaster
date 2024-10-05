@@ -1,0 +1,29 @@
+transaction_id,user_id,transaction_date,transaction_type,amount,currency,payment_method,description,status,reference_number,account_id,fees,merchant_id,category_id,location,receipt_number
+txn001,1001,2024-10-01 8:45:00,purchase,4.5,USD,credit_card,Morning coffee,completed,ref12345,acc001,0.1,mer001,2,Cafe,INV-001
+txn002,1001,2024-10-01 13:30:00,purchase,12.99,USD,credit_card,Lunch at a restaurant,completed,ref12346,acc001,0.3,mer002,3,Restaurant,INV-002
+txn003,1001,2024-10-01 19:00:00,purchase,32,USD,debit_card,Grocery shopping,completed,ref12347,acc001,0.5,mer003,1,Supermarket,INV-003
+txn004,1001,2024-10-02 12:00:00,purchase,45,USD,bank_transfer,Online course,completed,ref12348,acc001,1,mer004,7,Online,INV-004
+txn005,1001,2024-10-03 9:15:00,purchase,3.75,USD,credit_card,Coffee and pastry,completed,ref12349,acc001,0.1,mer001,2,Cafe,INV-005
+txn006,1001,2024-10-03 14:20:00,purchase,25.99,USD,credit_card,Clothing purchase,completed,ref12350,acc001,0.4,mer005,6,Clothing Store,INV-006
+txn007,1001,2024-10-04 11:45:00,purchase,15.5,USD,credit_card,Book purchase,completed,ref12351,acc001,0.25,mer008,8,Bookstore,INV-007
+txn008,1001,2024-10-04 18:30:00,purchase,120,USD,cash,Dinner at a food stall,completed,ref12352,acc001,0,mer006,3,Food Stall,INV-008
+txn009,1001,2024-10-05 10:00:00,purchase,7.5,USD,credit_card,Coffee with friends,completed,ref12353,acc001,0.15,mer001,2,Cafe,INV-009
+txn010,1001,2024-10-05 19:15:00,purchase,50,USD,credit_card,Tickets to a concert,completed,ref12354,acc001,1,mer007,9,Concert Venue,INV-010
+txn011,1001,2024-10-06 14:30:00,purchase,60,USD,bank_transfer,Electronics purchase,completed,ref12355,acc001,1.5,mer009,5,Online Store,INV-011
+txn012,1001,2024-10-07 8:15:00,purchase,3.5,USD,cash,Morning coffee,completed,ref12356,acc001,0,mer001,2,Cafe,INV-012
+txn013,1001,2024-10-07 12:45:00,purchase,20,USD,credit_card,Lunch at a restaurant,completed,ref12357,acc001,0.35,mer002,3,Restaurant,INV-013
+txn014,1001,2024-10-07 17:00:00,purchase,75,USD,debit_card,New shoes,completed,ref12358,acc001,1,mer005,6,Clothing Store,INV-014
+txn015,1001,2024-10-08 8:30:00,purchase,4.5,USD,credit_card,Morning coffee,completed,ref12359,acc001,0.1,mer001,2,Cafe,INV-015
+txn016,1001,2024-10-08 12:20:00,purchase,14.5,USD,credit_card,Lunch at restaurant,completed,ref12360,acc001,0.25,mer002,3,Restaurant,INV-016
+txn017,1001,2024-10-09 18:40:00,purchase,29.99,USD,debit_card,Grocery shopping,completed,ref12361,acc001,0.5,mer003,1,Supermarket,INV-017
+txn018,1001,2024-10-10 7:45:00,purchase,3.75,USD,credit_card,Coffee and pastry,completed,ref12362,acc001,0.05,mer001,2,Cafe,INV-018
+txn019,1001,2024-10-10 15:00:00,purchase,120,USD,bank_transfer,Online course,completed,ref12363,acc001,1,mer004,7,Online,INV-019
+txn020,1001,2024-10-11 12:45:00,purchase,20,USD,credit_card,Book purchase,completed,ref12364,acc001,0.3,mer008,8,Bookstore,INV-020
+txn021,1001,2024-10-12 9:15:00,purchase,4.5,USD,cash,Morning coffee,completed,ref12365,acc001,0,mer001,2,Cafe,INV-021
+txn022,1001,2024-10-12 13:30:00,purchase,35,USD,credit_card,Clothing purchase,completed,ref12366,acc001,0.5,mer005,6,Clothing Store,INV-022
+txn023,1001,2024-10-12 18:45:00,purchase,8.5,USD,cash,Dinner at a food stall,completed,ref12367,acc001,0,mer006,3,Food Stall,INV-023
+txn024,1001,2024-10-13 10:00:00,purchase,6.5,USD,credit_card,Coffee with friends,completed,ref12368,acc001,0.1,mer001,2,Cafe,INV-024
+txn025,1001,2024-10-13 16:00:00,purchase,60,USD,credit_card,Electronics purchase,completed,ref12369,acc001,1,mer009,5,Online Store,INV-025
+txn026,1001,2024-10-14 8:15:00,purchase,4.5,USD,credit_card,Morning coffee,completed,ref12370,acc001,0.1,mer001,2,Cafe,INV-026
+txn027,1001,2024-10-14 12:50:00,purchase,25,USD,credit_card,Lunch at a restaurant,completed,ref12371,acc001,0.35,mer002,3,Restaurant,INV-027
+txn028,1001,2024-10-14 17:30:00,purchase,45,USD,credit_card,New shoes,completed,ref12372,acc001,0.5,mer005,6,Clothing Store,INV-028
