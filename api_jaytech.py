@@ -1,13 +1,14 @@
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
+import calendar
 import time
 
 def check_new_date(data):
     
-    last_date = datetime.now() + timedelta(days=2)
+    last_date = datetime.now() + timedelta(days=1)
     time.sleep(5)
     while True :
-      current_date = datetime.now() + timedelta(days=3)
+      current_date = datetime.now() + timedelta(days=2)
       if(last_date.date != current_date.date):
           #this is just to print the exceed money
           for budget in data['daily_budget']:
@@ -16,8 +17,8 @@ def check_new_date(data):
                   budget_date.month == last_date.month and
                   budget_date.year == last_date.year):
                   last_date = current_date
-                  exceed = budget['amount']
-                  return exceed
+                  netBudget = budget['amount']
+                  return netBudget
               
           
       elif(last_date.date == current_date.date):
@@ -26,7 +27,23 @@ def check_new_date(data):
       
       time.sleep(60)
     
+def adjust_next_budget(data, netBudget):
+  end_saving_date = data['end_saving_date']
+  if end_saving_date.year == datetime.now().year :
+      
+      days_left = end_saving_date.day - datetime.now().day 
+      month_left = end_saving_date.month - datetime.now().month 
+      
+      if month_left > 0:
+            month = datetime.now().month
+            days_left = days_left.days +  calendar.monthrange(2024, month)[1] 
+    
+  print(days_left)       
 
+    
+    
+      
+      
 
 def spending_budget(transaction, a_month_data):
     
@@ -136,3 +153,4 @@ for spend in daily_budget['daily_budget']:
 
 #if new day we gonn sum the exceed spent
 print(check_new_date(daily_budget))  
+adjust_next_budget(daily_budget,10)
