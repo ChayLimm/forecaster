@@ -36,7 +36,7 @@ def adjust_next_budget(data, netBudget):
       
       if month_left > 0:
             month = datetime.now().month
-            days_left = days_left.days +  calendar.monthrange(2024, month)[1] #this is not int
+            days_left = days_left.days +  calendar.monthrange(2024, month)[1] 
     
   print(days_left)       
 
